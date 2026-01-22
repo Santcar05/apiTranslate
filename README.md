@@ -24,10 +24,13 @@ Esta API permite traducir texto entre diferentes idiomas utilizando modelos de i
 
 ## 🚀 Uso rápido
 
+
 ### 1. Ejecutar la API:
 ```bash
 mvn spring-boot:run
 ```
+> Recuerda que debes tener tus variables de entorno configuradas en tu computador
+> 
 ### 2. Enviar solicitud de traducción:
 ```bash
 curl -X POST http://localhost:8080/api/translate \
